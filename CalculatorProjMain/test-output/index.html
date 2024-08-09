@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Testing\CalculatorProj\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">41 methods,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperationsWithConsequtiveOperators" class="method navigator-link" hash-for-method="addAndAdd">addAndAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperationsWithConsequtiveOperators" class="method navigator-link" hash-for-method="addAndMul">addAndMul</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="addTwoNumbers">addTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="addZeroToZero">addZeroToZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.InvokeBrowserTest" class="method navigator-link" hash-for-method="checkCalculatorScreen">checkCalculatorScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="decEquals">decEquals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="divByZero">divByZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="divZeroToZero">divZeroToZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperationsWithConsequtiveOperators" class="method navigator-link" hash-for-method="divideFollowedByOperator">divideFollowedByOperator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="divideTwoNumbers">divideTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyLargeInputs" class="method navigator-link" hash-for-method="maximumLength">maximumLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyLargeInputs" class="method navigator-link" hash-for-method="maximumLengthAfterDecimal">maximumLengthAfterDecimal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyLargeInputs" class="method navigator-link" hash-for-method="minimumNegLength">minimumNegLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperationsWithConsequtiveOperators" class="method navigator-link" hash-for-method="mulAndSub">mulAndSub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="mulZeroToZero">mulZeroToZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="multiplyTwoNumbers">multiplyTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="negAdd">negAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="negDiv">negDiv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="negMul">negMul</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="negSub">negSub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperationsWithConsequtiveOperators" class="method navigator-link" hash-for-method="subAndAdd">subAndAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperationsWithConsequtiveOperators" class="method navigator-link" hash-for-method="subAndSub">subAndSub</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="subZeroToZero">subZeroToZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyOperations" class="method navigator-link" hash-for-method="subtractTwoNumbers">subtractTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyAC_CEFunctionality" class="method navigator-link" hash-for-method="testACAns">testACAns</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyAC_CEFunctionality" class="method navigator-link" hash-for-method="testACButton">testACButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="testAdditionOfSmallDecimalsEdgeCase">testAdditionOfSmallDecimalsEdgeCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyAC_CEFunctionality" class="method navigator-link" hash-for-method="testCEButton">testCEButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyAC_CEFunctionality" class="method navigator-link" hash-for-method="testCEButtonDuringOperation">testCEButtonDuringOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="testMixedOperationsWithDecimals">testMixedOperationsWithDecimals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="testRoundingBehavior">testRoundingBehavior</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="testSmallDecimalsExp">testSmallDecimalsExp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="testSubtractionToNegativeDecimalEdgeCase">testSubtractionToNegativeDecimalEdgeCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyCalculatorKeys" class="method navigator-link" hash-for-method="verifyAllDigitsAndOPLCD">verifyAllDigitsAndOPLCD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyAC_CEFunctionality" class="method navigator-link" hash-for-method="verifyCEForSingleDigit">verifyCEForSingleDigit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyCalculatorKeys" class="method navigator-link" hash-for-method="verifyCEOnClickingAC">verifyCEOnClickingAC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyAC_CEFunctionality" class="method navigator-link" hash-for-method="verifyCEToACForEquals">verifyCEToACForEquals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="verifyDecimalNumber">verifyDecimalNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyCalculatorKeys" class="method navigator-link" hash-for-method="verifyDefaultACModeOnLCD">verifyDefaultACModeOnLCD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyLargeInputs" class="method navigator-link" hash-for-method="verifyLargeOperation">verifyLargeOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="autodeskproj.VerifyDecimalFunctionalty" class="method navigator-link" hash-for-method="zeroAsDecimal">zeroAsDecimal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autodeskproj.VerifyOperationsWithConsequtiveOperators</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAndAdd">
+                  </a> <!-- addAndAdd -->
+                  <span class="method-name">addAndAdd</span>
+                  <em>
+(Verify operator + follwed by + will overwrite + in the expression)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAndMul">
+                  </a> <!-- addAndMul -->
+                  <span class="method-name">addAndMul</span>
+                  <em>
+(Verify operator + follwed by any operator will overwrite + in the expression)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divideFollowedByOperator">
+                  </a> <!-- divideFollowedByOperator -->
+                  <span class="method-name">divideFollowedByOperator</span>
+                  <em>
+(Verify operator / operator  follwed by  + / or  * will  overwrite / operator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulAndSub">
+                  </a> <!-- mulAndSub -->
+                  <span class="method-name">mulAndSub</span>
+                  <em>
+(Verify operator * and / operator  follwed by  will - append - to the expression)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subAndAdd">
+                  </a> <!-- subAndAdd -->
+                  <span class="method-name">subAndAdd</span>
+                  <em>
+(Verify operator - follwed by any operator will overwrite - in the expression)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subAndSub">
+                  </a> <!-- subAndSub -->
+                  <span class="method-name">subAndSub</span>
+                  <em>
+(Verify operator - or + follwed by - will overwrite first  - in the expression)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autodeskproj.VerifyAC_CEFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testACAns">
+                  </a> <!-- testACAns -->
+                  <span class="method-name">testACAns</span>
+                  <em>
+(Verify AC button clears all input but keeps last answer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testACButton">
+                  </a> <!-- testACButton -->
+                  <span class="method-name">testACButton</span>
+                  <em>
+(Verify AC button clears all input)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCEButton">
+                  </a> <!-- testCEButton -->
+                  <span class="method-name">testCEButton</span>
+                  <em>
+(Verify CE button clears last entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCEButtonDuringOperation">
+                  </a> <!-- testCEButtonDuringOperation -->
+                  <span class="method-name">testCEButtonDuringOperation</span>
+                  <em>
+(Verify CE button during operation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCEForSingleDigit">
+                  </a> <!-- verifyCEForSingleDigit -->
+                  <span class="method-name">verifyCEForSingleDigit</span>
+                  <em>
+(Verify LCD when CE clicked for single digit on screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCEToACForEquals">
+                  </a> <!-- verifyCEToACForEquals -->
+                  <span class="method-name">verifyCEToACForEquals</span>
+                  <em>
+(Verify CE toggles to AC when = is clicked)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autodeskproj.VerifyLargeInputs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximumLength">
+                  </a> <!-- maximumLength -->
+                  <span class="method-name">maximumLength</span>
+                  <em>
+(Verify total output length doesn't exceed 13)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximumLengthAfterDecimal">
+                  </a> <!-- maximumLengthAfterDecimal -->
+                  <span class="method-name">maximumLengthAfterDecimal</span>
+                  <em>
+(Verify total output length after decimal doesn't exceed 11)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minimumNegLength">
+                  </a> <!-- minimumNegLength -->
+                  <span class="method-name">minimumNegLength</span>
+                  <em>
+(Verify total output length for negative doesn't exceed 14)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLargeOperation">
+                  </a> <!-- verifyLargeOperation -->
+                  <span class="method-name">verifyLargeOperation</span>
+                  <em>
+(Verify large calculation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autodeskproj.VerifyOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTwoNumbers">
+                  </a> <!-- addTwoNumbers -->
+                  <span class="method-name">addTwoNumbers</span>
+                  <em>
+(Add two numbers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addZeroToZero">
+                  </a> <!-- addZeroToZero -->
+                  <span class="method-name">addZeroToZero</span>
+                  <em>
+(add two zeros)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divByZero">
+                  </a> <!-- divByZero -->
+                  <span class="method-name">divByZero</span>
+                  <em>
+(Divide by 0)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divZeroToZero">
+                  </a> <!-- divZeroToZero -->
+                  <span class="method-name">divZeroToZero</span>
+                  <em>
+(0 Divide by 0)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divideTwoNumbers">
+                  </a> <!-- divideTwoNumbers -->
+                  <span class="method-name">divideTwoNumbers</span>
+                  <em>
+(Divide two numbers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulZeroToZero">
+                  </a> <!-- mulZeroToZero -->
+                  <span class="method-name">mulZeroToZero</span>
+                  <em>
+(Multiply 0 by 0)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTwoNumbers">
+                  </a> <!-- multiplyTwoNumbers -->
+                  <span class="method-name">multiplyTwoNumbers</span>
+                  <em>
+(Multiply two numbers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negAdd">
+                  </a> <!-- negAdd -->
+                  <span class="method-name">negAdd</span>
+                  <em>
+(Add two negative numbers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negDiv">
+                  </a> <!-- negDiv -->
+                  <span class="method-name">negDiv</span>
+                  <em>
+(Divide by negative number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negMul">
+                  </a> <!-- negMul -->
+                  <span class="method-name">negMul</span>
+                  <em>
+(Multiply two negative numbers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negSub">
+                  </a> <!-- negSub -->
+                  <span class="method-name">negSub</span>
+                  <em>
+(Subtract two negative numbers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subZeroToZero">
+                  </a> <!-- subZeroToZero -->
+                  <span class="method-name">subZeroToZero</span>
+                  <em>
+(subtract 0 from 0)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subtractTwoNumbers">
+                  </a> <!-- subtractTwoNumbers -->
+                  <span class="method-name">subtractTwoNumbers</span>
+                  <em>
+(Subtract two numbers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autodeskproj.InvokeBrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCalculatorScreen">
+                  </a> <!-- checkCalculatorScreen -->
+                  <span class="method-name">checkCalculatorScreen</span>
+                  <em>
+(Verify if calculator screen is loaded)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autodeskproj.VerifyCalculatorKeys</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllDigitsAndOPLCD">
+                  </a> <!-- verifyAllDigitsAndOPLCD -->
+                  <span class="method-name">verifyAllDigitsAndOPLCD</span>
+                  <em>
+(Verifies all keys are functional)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCEOnClickingAC">
+                  </a> <!-- verifyCEOnClickingAC -->
+                  <span class="method-name">verifyCEOnClickingAC</span>
+                  <em>
+(Verifies if CE button visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDefaultACModeOnLCD">
+                  </a> <!-- verifyDefaultACModeOnLCD -->
+                  <span class="method-name">verifyDefaultACModeOnLCD</span>
+                  <em>
+(Verifies if AC button visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">autodeskproj.VerifyDecimalFunctionalty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="decEquals">
+                  </a> <!-- decEquals -->
+                  <span class="method-name">decEquals</span>
+                  <em>
+(Verify just decimal followed by = is an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdditionOfSmallDecimalsEdgeCase">
+                  </a> <!-- testAdditionOfSmallDecimalsEdgeCase -->
+                  <span class="method-name">testAdditionOfSmallDecimalsEdgeCase</span>
+                  <em>
+(Addition of Very Small Decimals)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMixedOperationsWithDecimals">
+                  </a> <!-- testMixedOperationsWithDecimals -->
+                  <span class="method-name">testMixedOperationsWithDecimals</span>
+                  <em>
+(Mixed Operations with Decimals)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRoundingBehavior">
+                  </a> <!-- testRoundingBehavior -->
+                  <span class="method-name">testRoundingBehavior</span>
+                  <em>
+(Rounding Behavior of Decimals with )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSmallDecimalsExp">
+                  </a> <!-- testSmallDecimalsExp -->
+                  <span class="method-name">testSmallDecimalsExp</span>
+                  <em>
+(Verfy Small Decimals expression)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubtractionToNegativeDecimalEdgeCase">
+                  </a> <!-- testSubtractionToNegativeDecimalEdgeCase -->
+                  <span class="method-name">testSubtractionToNegativeDecimalEdgeCase</span>
+                  <em>
+(Subtraction Resulting in Negative Decimal)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDecimalNumber">
+                  </a> <!-- verifyDecimalNumber -->
+                  <span class="method-name">verifyDecimalNumber</span>
+                  <em>
+(Verify decimal followed number will append 0 in the start .5 = 0.5)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroAsDecimal">
+                  </a> <!-- zeroAsDecimal -->
+                  <span class="method-name">zeroAsDecimal</span>
+                  <em>
+(Verify .0 is treated as 0 in result)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Testing\CalculatorProj\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;autodeskproj.InvokeBrowserTest&quot;/&gt;
+      &lt;class name=&quot;autodeskproj.VerifyCalculatorKeys&quot;/&gt;
+      &lt;class name=&quot;autodeskproj.VerifyOperations&quot;/&gt;
+      &lt;class name=&quot;autodeskproj.VerifyDecimalFunctionalty&quot;/&gt;
+      &lt;class name=&quot;autodeskproj.VerifyPedmasRule&quot;/&gt;
+      &lt;class name=&quot;autodeskproj.VerifyLargeInputs&quot;/&gt;
+      &lt;class name=&quot;autodeskproj.VerifyAC_CEFunctionality&quot;/&gt;
+      &lt;class name=&quot;autodeskproj.VerifyOperationsWithConsequtiveOperators&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(41);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'minimumNegLength')
+data.setCell(0, 2, 'autodeskproj.VerifyLargeInputs')
+data.setCell(0, 3, 1362);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAllDigitsAndOPLCD')
+data.setCell(1, 2, 'autodeskproj.VerifyCalculatorKeys')
+data.setCell(1, 3, 1324);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCEButtonDuringOperation')
+data.setCell(2, 2, 'autodeskproj.VerifyAC_CEFunctionality')
+data.setCell(2, 3, 1321);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCEToACForEquals')
+data.setCell(3, 2, 'autodeskproj.VerifyAC_CEFunctionality')
+data.setCell(3, 3, 1279);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'maximumLengthAfterDecimal')
+data.setCell(4, 2, 'autodeskproj.VerifyLargeInputs')
+data.setCell(4, 3, 1188);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLargeOperation')
+data.setCell(5, 2, 'autodeskproj.VerifyLargeInputs')
+data.setCell(5, 3, 1161);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'maximumLength')
+data.setCell(6, 2, 'autodeskproj.VerifyLargeInputs')
+data.setCell(6, 3, 1053);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSmallDecimalsExp')
+data.setCell(7, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(7, 3, 837);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAdditionOfSmallDecimalsEdgeCase')
+data.setCell(8, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(8, 3, 788);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMixedOperationsWithDecimals')
+data.setCell(9, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(9, 3, 761);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCEButton')
+data.setCell(10, 2, 'autodeskproj.VerifyAC_CEFunctionality')
+data.setCell(10, 3, 729);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCEForSingleDigit')
+data.setCell(11, 2, 'autodeskproj.VerifyAC_CEFunctionality')
+data.setCell(11, 3, 636);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyCEOnClickingAC')
+data.setCell(12, 2, 'autodeskproj.VerifyCalculatorKeys')
+data.setCell(12, 3, 607);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyDecimalNumber')
+data.setCell(13, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(13, 3, 514);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'negMul')
+data.setCell(14, 2, 'autodeskproj.VerifyOperations')
+data.setCell(14, 3, 490);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'negAdd')
+data.setCell(15, 2, 'autodeskproj.VerifyOperations')
+data.setCell(15, 3, 482);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSubtractionToNegativeDecimalEdgeCase')
+data.setCell(16, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(16, 3, 474);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testACAns')
+data.setCell(17, 2, 'autodeskproj.VerifyAC_CEFunctionality')
+data.setCell(17, 3, 435);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'negDiv')
+data.setCell(18, 2, 'autodeskproj.VerifyOperations')
+data.setCell(18, 3, 432);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'negSub')
+data.setCell(19, 2, 'autodeskproj.VerifyOperations')
+data.setCell(19, 3, 424);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'subAndAdd')
+data.setCell(20, 2, 'autodeskproj.VerifyOperationsWithConsequtiveOperators')
+data.setCell(20, 3, 413);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testACButton')
+data.setCell(21, 2, 'autodeskproj.VerifyAC_CEFunctionality')
+data.setCell(21, 3, 411);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'mulAndSub')
+data.setCell(22, 2, 'autodeskproj.VerifyOperationsWithConsequtiveOperators')
+data.setCell(22, 3, 389);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addTwoNumbers')
+data.setCell(23, 2, 'autodeskproj.VerifyOperations')
+data.setCell(23, 3, 385);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'addAndAdd')
+data.setCell(24, 2, 'autodeskproj.VerifyOperationsWithConsequtiveOperators')
+data.setCell(24, 3, 383);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'subtractTwoNumbers')
+data.setCell(25, 2, 'autodeskproj.VerifyOperations')
+data.setCell(25, 3, 353);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'addAndMul')
+data.setCell(26, 2, 'autodeskproj.VerifyOperationsWithConsequtiveOperators')
+data.setCell(26, 3, 350);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'divideFollowedByOperator')
+data.setCell(27, 2, 'autodeskproj.VerifyOperationsWithConsequtiveOperators')
+data.setCell(27, 3, 332);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testRoundingBehavior')
+data.setCell(28, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(28, 3, 331);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'divByZero')
+data.setCell(29, 2, 'autodeskproj.VerifyOperations')
+data.setCell(29, 3, 322);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'subZeroToZero')
+data.setCell(30, 2, 'autodeskproj.VerifyOperations')
+data.setCell(30, 3, 319);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'zeroAsDecimal')
+data.setCell(31, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(31, 3, 306);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'multiplyTwoNumbers')
+data.setCell(32, 2, 'autodeskproj.VerifyOperations')
+data.setCell(32, 3, 300);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'subAndSub')
+data.setCell(33, 2, 'autodeskproj.VerifyOperationsWithConsequtiveOperators')
+data.setCell(33, 3, 298);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'mulZeroToZero')
+data.setCell(34, 2, 'autodeskproj.VerifyOperations')
+data.setCell(34, 3, 290);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'divZeroToZero')
+data.setCell(35, 2, 'autodeskproj.VerifyOperations')
+data.setCell(35, 3, 244);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'decEquals')
+data.setCell(36, 2, 'autodeskproj.VerifyDecimalFunctionalty')
+data.setCell(36, 3, 234);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'divideTwoNumbers')
+data.setCell(37, 2, 'autodeskproj.VerifyOperations')
+data.setCell(37, 3, 222);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'addZeroToZero')
+data.setCell(38, 2, 'autodeskproj.VerifyOperations')
+data.setCell(38, 3, 208);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkCalculatorScreen')
+data.setCell(39, 2, 'autodeskproj.InvokeBrowserTest')
+data.setCell(39, 3, 66);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyDefaultACModeOnLCD')
+data.setCell(40, 2, 'autodeskproj.VerifyCalculatorKeys')
+data.setCell(40, 3, 38);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.InvokeBrowserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">verifyCalculatorScreen</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkCalculatorScreen</span>
+                <span class="method-start">2761 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.VerifyCalculatorKeys</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllDigitsAndOPLCD</span>
+                <span class="method-start">5535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCEOnClickingAC</span>
+                <span class="method-start">8793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDefaultACModeOnLCD</span>
+                <span class="method-start">12688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12728 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.VerifyOperations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addTwoNumbers</span>
+                <span class="method-start">14875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addZeroToZero</span>
+                <span class="method-start">17845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divByZero</span>
+                <span class="method-start">19992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divZeroToZero</span>
+                <span class="method-start">22178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divideTwoNumbers</span>
+                <span class="method-start">25033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mulZeroToZero</span>
+                <span class="method-start">27115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiplyTwoNumbers</span>
+                <span class="method-start">29218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negAdd</span>
+                <span class="method-start">31620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negDiv</span>
+                <span class="method-start">34438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negMul</span>
+                <span class="method-start">37130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negSub</span>
+                <span class="method-start">39699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">subZeroToZero</span>
+                <span class="method-start">42218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">subtractTwoNumbers</span>
+                <span class="method-start">44615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44968 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.VerifyDecimalFunctionalty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">decEquals</span>
+                <span class="method-start">47201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAdditionOfSmallDecimalsEdgeCase</span>
+                <span class="method-start">49713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMixedOperationsWithDecimals</span>
+                <span class="method-start">53066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRoundingBehavior</span>
+                <span class="method-start">56104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSmallDecimalsExp</span>
+                <span class="method-start">58717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSubtractionToNegativeDecimalEdgeCase</span>
+                <span class="method-start">61780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62351 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDecimalNumber</span>
+                <span class="method-start">64288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">zeroAsDecimal</span>
+                <span class="method-start">66955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67262 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.VerifyLargeInputs</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maximumLength</span>
+                <span class="method-start">70791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">71947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maximumLengthAfterDecimal</span>
+                <span class="method-start">73898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">75189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minimumNegLength</span>
+                <span class="method-start">77123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLargeOperation</span>
+                <span class="method-start">80741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81902 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.VerifyAC_CEFunctionality</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testACAns</span>
+                <span class="method-start">84200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">84746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testACButton</span>
+                <span class="method-start">86590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCEButton</span>
+                <span class="method-start">89206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCEButtonDuringOperation</span>
+                <span class="method-start">91949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93371 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCEForSingleDigit</span>
+                <span class="method-start">95250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCEToACForEquals</span>
+                <span class="method-start">97725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99004 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.VerifyOperationsWithConsequtiveOperators</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">99103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addAndAdd</span>
+                <span class="method-start">101220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">101722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addAndMul</span>
+                <span class="method-start">103817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divideFollowedByOperator</span>
+                <span class="method-start">106302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">106742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mulAndSub</span>
+                <span class="method-start">108615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">109111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">subAndAdd</span>
+                <span class="method-start">111146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">111681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">subAndSub</span>
+                <span class="method-start">114435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114733 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">autodeskproj.InvokeBrowserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114831 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

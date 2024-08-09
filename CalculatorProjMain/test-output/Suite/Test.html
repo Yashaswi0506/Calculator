@@ -1,0 +1,285 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 17 02:17:58 PDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>114 seconds (114981 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='autodeskproj.VerifyAC_CEFunctionality.verifyCEToACForEquals()'><b>verifyCEToACForEquals</b><br>Test class: autodeskproj.VerifyAC_CEFunctionality<br>Test method: Verify CE toggles to AC when = is clicked</td>
+<td></td>
+<td>1</td>
+<td>autodeskproj.VerifyAC_CEFunctionality@5524cca1</td></tr>
+<tr>
+<td title='autodeskproj.VerifyCalculatorKeys.verifyDefaultACModeOnLCD()'><b>verifyDefaultACModeOnLCD</b><br>Test class: autodeskproj.VerifyCalculatorKeys<br>Test method: Verifies if AC button visible</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyCalculatorKeys@413d1baf</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.negMul()'><b>negMul</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Multiply two negative numbers</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.mulZeroToZero()'><b>mulZeroToZero</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Multiply 0 by 0</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.negDiv()'><b>negDiv</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Divide by negative number</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.zeroAsDecimal()'><b>zeroAsDecimal</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Verify .0 is treated as 0 in result</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyLargeInputs.minimumNegLength()'><b>minimumNegLength</b><br>Test class: autodeskproj.VerifyLargeInputs<br>Test method: Verify total output length for negative doesn't exceed 14</td>
+<td></td>
+<td>1</td>
+<td>autodeskproj.VerifyLargeInputs@1a75e76a</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.testAdditionOfSmallDecimalsEdgeCase()'><b>testAdditionOfSmallDecimalsEdgeCase</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Addition of Very Small Decimals</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperationsWithConsequtiveOperators.subAndAdd()'><b>subAndAdd</b><br>Test class: autodeskproj.VerifyOperationsWithConsequtiveOperators<br>Test method: Verify operator - follwed by any operator will overwrite - in the expression</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f</td></tr>
+<tr>
+<td title='autodeskproj.VerifyLargeInputs.maximumLength()'><b>maximumLength</b><br>Test class: autodeskproj.VerifyLargeInputs<br>Test method: Verify total output length doesn't exceed 13</td>
+<td></td>
+<td>1</td>
+<td>autodeskproj.VerifyLargeInputs@1a75e76a</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.verifyDecimalNumber()'><b>verifyDecimalNumber</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Verify decimal followed number will append 0 in the start .5 = 0.5</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.divZeroToZero()'><b>divZeroToZero</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: 0 Divide by 0</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.addZeroToZero()'><b>addZeroToZero</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: add two zeros</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyCalculatorKeys.verifyCEOnClickingAC()'><b>verifyCEOnClickingAC</b><br>Test class: autodeskproj.VerifyCalculatorKeys<br>Test method: Verifies if CE button visible</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyCalculatorKeys@413d1baf</td></tr>
+<tr>
+<td title='autodeskproj.VerifyLargeInputs.verifyLargeOperation()'><b>verifyLargeOperation</b><br>Test class: autodeskproj.VerifyLargeInputs<br>Test method: Verify large calculation</td>
+<td></td>
+<td>1</td>
+<td>autodeskproj.VerifyLargeInputs@1a75e76a</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperationsWithConsequtiveOperators.addAndAdd()'><b>addAndAdd</b><br>Test class: autodeskproj.VerifyOperationsWithConsequtiveOperators<br>Test method: Verify operator + follwed by + will overwrite + in the expression</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.subZeroToZero()'><b>subZeroToZero</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: subtract 0 from 0</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.testRoundingBehavior()'><b>testRoundingBehavior</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Rounding Behavior of Decimals with </td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyLargeInputs.maximumLengthAfterDecimal()'><b>maximumLengthAfterDecimal</b><br>Test class: autodeskproj.VerifyLargeInputs<br>Test method: Verify total output length after decimal doesn't exceed 11</td>
+<td></td>
+<td>1</td>
+<td>autodeskproj.VerifyLargeInputs@1a75e76a</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperationsWithConsequtiveOperators.subAndSub()'><b>subAndSub</b><br>Test class: autodeskproj.VerifyOperationsWithConsequtiveOperators<br>Test method: Verify operator - or + follwed by - will overwrite first  - in the expression</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.subtractTwoNumbers()'><b>subtractTwoNumbers</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Subtract two numbers</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.addTwoNumbers()'><b>addTwoNumbers</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Add two numbers</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyAC_CEFunctionality.testACAns()'><b>testACAns</b><br>Test class: autodeskproj.VerifyAC_CEFunctionality<br>Test method: Verify AC button clears all input but keeps last answer</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyAC_CEFunctionality@5524cca1</td></tr>
+<tr>
+<td title='autodeskproj.VerifyAC_CEFunctionality.testCEButton()'><b>testCEButton</b><br>Test class: autodeskproj.VerifyAC_CEFunctionality<br>Test method: Verify CE button clears last entry</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyAC_CEFunctionality@5524cca1</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.multiplyTwoNumbers()'><b>multiplyTwoNumbers</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Multiply two numbers</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperationsWithConsequtiveOperators.divideFollowedByOperator()'><b>divideFollowedByOperator</b><br>Test class: autodeskproj.VerifyOperationsWithConsequtiveOperators<br>Test method: Verify operator / operator  follwed by  + / or  * will  overwrite / operator</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f</td></tr>
+<tr>
+<td title='autodeskproj.VerifyAC_CEFunctionality.testCEButtonDuringOperation()'><b>testCEButtonDuringOperation</b><br>Test class: autodeskproj.VerifyAC_CEFunctionality<br>Test method: Verify CE button during operation</td>
+<td></td>
+<td>1</td>
+<td>autodeskproj.VerifyAC_CEFunctionality@5524cca1</td></tr>
+<tr>
+<td title='autodeskproj.VerifyAC_CEFunctionality.verifyCEForSingleDigit()'><b>verifyCEForSingleDigit</b><br>Test class: autodeskproj.VerifyAC_CEFunctionality<br>Test method: Verify LCD when CE clicked for single digit on screen</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyAC_CEFunctionality@5524cca1</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.divideTwoNumbers()'><b>divideTwoNumbers</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Divide two numbers</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperationsWithConsequtiveOperators.mulAndSub()'><b>mulAndSub</b><br>Test class: autodeskproj.VerifyOperationsWithConsequtiveOperators<br>Test method: Verify operator * and / operator  follwed by  will - append - to the expression</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.negAdd()'><b>negAdd</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Add two negative numbers</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.decEquals()'><b>decEquals</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Verify just decimal followed by = is an error</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyCalculatorKeys.verifyAllDigitsAndOPLCD()'><b>verifyAllDigitsAndOPLCD</b><br>Test class: autodeskproj.VerifyCalculatorKeys<br>Test method: Verifies all keys are functional</td>
+<td></td>
+<td>1</td>
+<td>autodeskproj.VerifyCalculatorKeys@413d1baf</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.negSub()'><b>negSub</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Subtract two negative numbers</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyAC_CEFunctionality.testACButton()'><b>testACButton</b><br>Test class: autodeskproj.VerifyAC_CEFunctionality<br>Test method: Verify AC button clears all input</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyAC_CEFunctionality@5524cca1</td></tr>
+<tr>
+<td title='autodeskproj.InvokeBrowserTest.checkCalculatorScreen()'><b>checkCalculatorScreen</b><br>Test class: autodeskproj.InvokeBrowserTest<br>Test method: Verify if calculator screen is loaded</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.InvokeBrowserTest@5e2c3d18</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.testSubtractionToNegativeDecimalEdgeCase()'><b>testSubtractionToNegativeDecimalEdgeCase</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Subtraction Resulting in Negative Decimal</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.testMixedOperationsWithDecimals()'><b>testMixedOperationsWithDecimals</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Mixed Operations with Decimals</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyDecimalFunctionalty.testSmallDecimalsExp()'><b>testSmallDecimalsExp</b><br>Test class: autodeskproj.VerifyDecimalFunctionalty<br>Test method: Verfy Small Decimals expression</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyDecimalFunctionalty@273444fe</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperations.divByZero()'><b>divByZero</b><br>Test class: autodeskproj.VerifyOperations<br>Test method: Divide by 0</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperations@16eb3ea3</td></tr>
+<tr>
+<td title='autodeskproj.VerifyOperationsWithConsequtiveOperators.addAndMul()'><b>addAndMul</b><br>Test class: autodeskproj.VerifyOperationsWithConsequtiveOperators<br>Test method: Verify operator + follwed by any operator will overwrite + in the expression</td>
+<td></td>
+<td>0</td>
+<td>autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f</td></tr>
+</table><p>
+</body>
+</html>

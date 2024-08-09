@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="41" passed="41" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-17T02:17:58 PDT" name="Suite" finished-at="2024-05-17T02:19:53 PDT" duration-ms="114981">
+    <groups>
+    </groups>
+    <test started-at="2024-05-17T02:17:58 PDT" name="Test" finished-at="2024-05-17T02:19:53 PDT" duration-ms="114981">
+      <class name="autodeskproj.InvokeBrowserTest">
+        <test-method is-config="true" signature="verifyCalculatorScreen()[pri:0, instance:autodeskproj.InvokeBrowserTest@5e2c3d18]" started-at="2024-05-17T02:17:58 PDT" name="verifyCalculatorScreen" description="loads url" finished-at="2024-05-17T02:18:01 PDT" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculatorScreen -->
+        <test-method signature="checkCalculatorScreen()[pri:0, instance:autodeskproj.InvokeBrowserTest@5e2c3d18]" started-at="2024-05-17T02:18:01 PDT" name="checkCalculatorScreen" description="Verify if calculator screen is loaded" finished-at="2024-05-17T02:18:01 PDT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCalculatorScreen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.InvokeBrowserTest@5e2c3d18]" started-at="2024-05-17T02:19:53 PDT" name="tearDown" finished-at="2024-05-17T02:19:53 PDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autodeskproj.InvokeBrowserTest -->
+      <class name="autodeskproj.VerifyOperations">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:11 PDT" name="setUp" finished-at="2024-05-17T02:18:13 PDT" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addTwoNumbers()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:13 PDT" name="addTwoNumbers" description="Add two numbers" finished-at="2024-05-17T02:18:13 PDT" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoNumbers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:13 PDT" name="tearDown" finished-at="2024-05-17T02:18:13 PDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:13 PDT" name="setUp" finished-at="2024-05-17T02:18:16 PDT" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addZeroToZero()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:16 PDT" name="addZeroToZero" description="add two zeros" finished-at="2024-05-17T02:18:16 PDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addZeroToZero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:16 PDT" name="tearDown" finished-at="2024-05-17T02:18:16 PDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:16 PDT" name="setUp" finished-at="2024-05-17T02:18:18 PDT" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divByZero()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:18 PDT" name="divByZero" description="Divide by 0" finished-at="2024-05-17T02:18:18 PDT" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divByZero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:18 PDT" name="tearDown" finished-at="2024-05-17T02:18:18 PDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:18 PDT" name="setUp" finished-at="2024-05-17T02:18:20 PDT" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divZeroToZero()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:20 PDT" name="divZeroToZero" description="0 Divide by 0" finished-at="2024-05-17T02:18:20 PDT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divZeroToZero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:20 PDT" name="tearDown" finished-at="2024-05-17T02:18:20 PDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:20 PDT" name="setUp" finished-at="2024-05-17T02:18:23 PDT" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divideTwoNumbers()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:23 PDT" name="divideTwoNumbers" description="Divide two numbers" finished-at="2024-05-17T02:18:23 PDT" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTwoNumbers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:23 PDT" name="tearDown" finished-at="2024-05-17T02:18:23 PDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:23 PDT" name="setUp" finished-at="2024-05-17T02:18:25 PDT" duration-ms="1757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mulZeroToZero()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:25 PDT" name="mulZeroToZero" description="Multiply 0 by 0" finished-at="2024-05-17T02:18:25 PDT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulZeroToZero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:25 PDT" name="tearDown" finished-at="2024-05-17T02:18:25 PDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:25 PDT" name="setUp" finished-at="2024-05-17T02:18:27 PDT" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multiplyTwoNumbers()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:27 PDT" name="multiplyTwoNumbers" description="Multiply two numbers" finished-at="2024-05-17T02:18:27 PDT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTwoNumbers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:27 PDT" name="tearDown" finished-at="2024-05-17T02:18:27 PDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:27 PDT" name="setUp" finished-at="2024-05-17T02:18:29 PDT" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negAdd()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:29 PDT" name="negAdd" description="Add two negative numbers" finished-at="2024-05-17T02:18:30 PDT" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:30 PDT" name="tearDown" finished-at="2024-05-17T02:18:30 PDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:30 PDT" name="setUp" finished-at="2024-05-17T02:18:32 PDT" duration-ms="2235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negDiv()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:32 PDT" name="negDiv" description="Divide by negative number" finished-at="2024-05-17T02:18:33 PDT" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negDiv -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:33 PDT" name="tearDown" finished-at="2024-05-17T02:18:33 PDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:33 PDT" name="setUp" finished-at="2024-05-17T02:18:35 PDT" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negMul()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:35 PDT" name="negMul" description="Multiply two negative numbers" finished-at="2024-05-17T02:18:35 PDT" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negMul -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:35 PDT" name="tearDown" finished-at="2024-05-17T02:18:36 PDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:36 PDT" name="setUp" finished-at="2024-05-17T02:18:37 PDT" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negSub()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:37 PDT" name="negSub" description="Subtract two negative numbers" finished-at="2024-05-17T02:18:38 PDT" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negSub -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:38 PDT" name="tearDown" finished-at="2024-05-17T02:18:38 PDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:38 PDT" name="setUp" finished-at="2024-05-17T02:18:40 PDT" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subZeroToZero()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:40 PDT" name="subZeroToZero" description="subtract 0 from 0" finished-at="2024-05-17T02:18:40 PDT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subZeroToZero -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:40 PDT" name="tearDown" finished-at="2024-05-17T02:18:40 PDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:40 PDT" name="setUp" finished-at="2024-05-17T02:18:42 PDT" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subtractTwoNumbers()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:42 PDT" name="subtractTwoNumbers" description="Subtract two numbers" finished-at="2024-05-17T02:18:43 PDT" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTwoNumbers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperations@16eb3ea3]" started-at="2024-05-17T02:18:43 PDT" name="tearDown" finished-at="2024-05-17T02:18:43 PDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autodeskproj.VerifyOperations -->
+      <class name="autodeskproj.VerifyCalculatorKeys">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:01 PDT" name="setUp" finished-at="2024-05-17T02:18:03 PDT" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllDigitsAndOPLCD()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:03 PDT" name="verifyAllDigitsAndOPLCD" description="Verifies all keys are functional" finished-at="2024-05-17T02:18:05 PDT" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllDigitsAndOPLCD -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:05 PDT" name="tearDown" finished-at="2024-05-17T02:18:05 PDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:05 PDT" name="setUp" finished-at="2024-05-17T02:18:07 PDT" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCEOnClickingAC()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:07 PDT" name="verifyCEOnClickingAC" description="Verifies if CE button visible" finished-at="2024-05-17T02:18:07 PDT" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCEOnClickingAC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:07 PDT" name="tearDown" finished-at="2024-05-17T02:18:07 PDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:07 PDT" name="setUp" finished-at="2024-05-17T02:18:10 PDT" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDefaultACModeOnLCD()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:10 PDT" name="verifyDefaultACModeOnLCD" description="Verifies if AC button visible" finished-at="2024-05-17T02:18:11 PDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultACModeOnLCD -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyCalculatorKeys@413d1baf]" started-at="2024-05-17T02:18:11 PDT" name="tearDown" finished-at="2024-05-17T02:18:11 PDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autodeskproj.VerifyCalculatorKeys -->
+      <class name="autodeskproj.VerifyDecimalFunctionalty">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:43 PDT" name="setUp" finished-at="2024-05-17T02:18:45 PDT" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="decEquals()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:45 PDT" name="decEquals" description="Verify just decimal followed by = is an error" finished-at="2024-05-17T02:18:45 PDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decEquals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:45 PDT" name="tearDown" finished-at="2024-05-17T02:18:45 PDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:45 PDT" name="setUp" finished-at="2024-05-17T02:18:48 PDT" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAdditionOfSmallDecimalsEdgeCase()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:48 PDT" name="testAdditionOfSmallDecimalsEdgeCase" description="Addition of Very Small Decimals" finished-at="2024-05-17T02:18:48 PDT" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionOfSmallDecimalsEdgeCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:48 PDT" name="tearDown" finished-at="2024-05-17T02:18:48 PDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:48 PDT" name="setUp" finished-at="2024-05-17T02:18:51 PDT" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMixedOperationsWithDecimals()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:51 PDT" name="testMixedOperationsWithDecimals" description="Mixed Operations with Decimals" finished-at="2024-05-17T02:18:52 PDT" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMixedOperationsWithDecimals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:52 PDT" name="tearDown" finished-at="2024-05-17T02:18:52 PDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:52 PDT" name="setUp" finished-at="2024-05-17T02:18:54 PDT" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRoundingBehavior()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:54 PDT" name="testRoundingBehavior" description="Rounding Behavior of Decimals with " finished-at="2024-05-17T02:18:54 PDT" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoundingBehavior -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:54 PDT" name="tearDown" finished-at="2024-05-17T02:18:54 PDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:54 PDT" name="setUp" finished-at="2024-05-17T02:18:57 PDT" duration-ms="2171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSmallDecimalsExp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:57 PDT" name="testSmallDecimalsExp" description="Verfy Small Decimals expression" finished-at="2024-05-17T02:18:57 PDT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmallDecimalsExp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:57 PDT" name="tearDown" finished-at="2024-05-17T02:18:57 PDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:18:57 PDT" name="setUp" finished-at="2024-05-17T02:19:00 PDT" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubtractionToNegativeDecimalEdgeCase()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:00 PDT" name="testSubtractionToNegativeDecimalEdgeCase" description="Subtraction Resulting in Negative Decimal" finished-at="2024-05-17T02:19:00 PDT" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionToNegativeDecimalEdgeCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:00 PDT" name="tearDown" finished-at="2024-05-17T02:19:00 PDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:00 PDT" name="setUp" finished-at="2024-05-17T02:19:02 PDT" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDecimalNumber()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:02 PDT" name="verifyDecimalNumber" description="Verify decimal followed number will append 0 in the start .5 = 0.5" finished-at="2024-05-17T02:19:03 PDT" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDecimalNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:03 PDT" name="tearDown" finished-at="2024-05-17T02:19:03 PDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:03 PDT" name="setUp" finished-at="2024-05-17T02:19:05 PDT" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="zeroAsDecimal()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:05 PDT" name="zeroAsDecimal" description="Verify .0 is treated as 0 in result" finished-at="2024-05-17T02:19:05 PDT" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroAsDecimal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyDecimalFunctionalty@273444fe]" started-at="2024-05-17T02:19:05 PDT" name="tearDown" finished-at="2024-05-17T02:19:05 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autodeskproj.VerifyDecimalFunctionalty -->
+      <class name="autodeskproj.VerifyAC_CEFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:20 PDT" name="setUp" finished-at="2024-05-17T02:19:22 PDT" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testACAns()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:22 PDT" name="testACAns" description="Verify AC button clears all input but keeps last answer" finished-at="2024-05-17T02:19:22 PDT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testACAns -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:22 PDT" name="tearDown" finished-at="2024-05-17T02:19:23 PDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:23 PDT" name="setUp" finished-at="2024-05-17T02:19:24 PDT" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testACButton()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:24 PDT" name="testACButton" description="Verify AC button clears all input" finished-at="2024-05-17T02:19:25 PDT" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testACButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:25 PDT" name="tearDown" finished-at="2024-05-17T02:19:25 PDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:25 PDT" name="setUp" finished-at="2024-05-17T02:19:27 PDT" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCEButton()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:27 PDT" name="testCEButton" description="Verify CE button clears last entry" finished-at="2024-05-17T02:19:28 PDT" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCEButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:28 PDT" name="tearDown" finished-at="2024-05-17T02:19:28 PDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:28 PDT" name="setUp" finished-at="2024-05-17T02:19:30 PDT" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCEButtonDuringOperation()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:30 PDT" name="testCEButtonDuringOperation" description="Verify CE button during operation" finished-at="2024-05-17T02:19:31 PDT" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCEButtonDuringOperation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:31 PDT" name="tearDown" finished-at="2024-05-17T02:19:31 PDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:31 PDT" name="setUp" finished-at="2024-05-17T02:19:33 PDT" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCEForSingleDigit()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:33 PDT" name="verifyCEForSingleDigit" description="Verify LCD when CE clicked for single digit on screen" finished-at="2024-05-17T02:19:34 PDT" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCEForSingleDigit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:34 PDT" name="tearDown" finished-at="2024-05-17T02:19:34 PDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:34 PDT" name="setUp" finished-at="2024-05-17T02:19:36 PDT" duration-ms="1740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCEToACForEquals()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:36 PDT" name="verifyCEToACForEquals" description="Verify CE toggles to AC when = is clicked" finished-at="2024-05-17T02:19:37 PDT" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCEToACForEquals -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyAC_CEFunctionality@5524cca1]" started-at="2024-05-17T02:19:37 PDT" name="tearDown" finished-at="2024-05-17T02:19:37 PDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autodeskproj.VerifyAC_CEFunctionality -->
+      <class name="autodeskproj.VerifyLargeInputs">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:05 PDT" name="setUp" finished-at="2024-05-17T02:19:09 PDT" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="maximumLength()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:09 PDT" name="maximumLength" description="Verify total output length doesn&#039;t exceed 13" finished-at="2024-05-17T02:19:10 PDT" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximumLength -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:10 PDT" name="tearDown" finished-at="2024-05-17T02:19:10 PDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:10 PDT" name="setUp" finished-at="2024-05-17T02:19:12 PDT" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="maximumLengthAfterDecimal()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:12 PDT" name="maximumLengthAfterDecimal" description="Verify total output length after decimal doesn&#039;t exceed 11" finished-at="2024-05-17T02:19:13 PDT" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximumLengthAfterDecimal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:13 PDT" name="tearDown" finished-at="2024-05-17T02:19:13 PDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:13 PDT" name="setUp" finished-at="2024-05-17T02:19:15 PDT" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="minimumNegLength()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:15 PDT" name="minimumNegLength" description="Verify total output length for negative doesn&#039;t exceed 14" finished-at="2024-05-17T02:19:16 PDT" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimumNegLength -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:16 PDT" name="tearDown" finished-at="2024-05-17T02:19:16 PDT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:16 PDT" name="setUp" finished-at="2024-05-17T02:19:19 PDT" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLargeOperation()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:19 PDT" name="verifyLargeOperation" description="Verify large calculation" finished-at="2024-05-17T02:19:20 PDT" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLargeOperation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyLargeInputs@1a75e76a]" started-at="2024-05-17T02:19:20 PDT" name="tearDown" finished-at="2024-05-17T02:19:20 PDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autodeskproj.VerifyLargeInputs -->
+      <class name="autodeskproj.VerifyOperationsWithConsequtiveOperators">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:37 PDT" name="setUp" finished-at="2024-05-17T02:19:39 PDT" duration-ms="2117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addAndAdd()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:39 PDT" name="addAndAdd" description="Verify operator + follwed by + will overwrite + in the expression" finished-at="2024-05-17T02:19:39 PDT" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:39 PDT" name="tearDown" finished-at="2024-05-17T02:19:40 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:40 PDT" name="setUp" finished-at="2024-05-17T02:19:42 PDT" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addAndMul()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:42 PDT" name="addAndMul" description="Verify operator + follwed by any operator will overwrite + in the expression" finished-at="2024-05-17T02:19:42 PDT" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndMul -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:42 PDT" name="tearDown" finished-at="2024-05-17T02:19:42 PDT" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:42 PDT" name="setUp" finished-at="2024-05-17T02:19:44 PDT" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="divideFollowedByOperator()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:44 PDT" name="divideFollowedByOperator" description="Verify operator / operator  follwed by  + / or  * will  overwrite / operator" finished-at="2024-05-17T02:19:44 PDT" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideFollowedByOperator -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:44 PDT" name="tearDown" finished-at="2024-05-17T02:19:45 PDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:45 PDT" name="setUp" finished-at="2024-05-17T02:19:46 PDT" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mulAndSub()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:46 PDT" name="mulAndSub" description="Verify operator * and / operator  follwed by  will - append - to the expression" finished-at="2024-05-17T02:19:47 PDT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulAndSub -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:47 PDT" name="tearDown" finished-at="2024-05-17T02:19:47 PDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:47 PDT" name="setUp" finished-at="2024-05-17T02:19:49 PDT" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subAndAdd()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:49 PDT" name="subAndAdd" description="Verify operator - follwed by any operator will overwrite - in the expression" finished-at="2024-05-17T02:19:49 PDT" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subAndAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:49 PDT" name="tearDown" finished-at="2024-05-17T02:19:49 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:49 PDT" name="setUp" finished-at="2024-05-17T02:19:52 PDT" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subAndSub()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:52 PDT" name="subAndSub" description="Verify operator - or + follwed by - will overwrite first  - in the expression" finished-at="2024-05-17T02:19:53 PDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subAndSub -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autodeskproj.VerifyOperationsWithConsequtiveOperators@5032714f]" started-at="2024-05-17T02:19:53 PDT" name="tearDown" finished-at="2024-05-17T02:19:53 PDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autodeskproj.VerifyOperationsWithConsequtiveOperators -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
